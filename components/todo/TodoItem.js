@@ -6,13 +6,15 @@ function TodoItem(props) {
   const detailsHandler=()=>{
     router.push(`/${props.id}`)
   }
+  const doneHandler= ()=>{
+  }
   return (
     <li className={classes.item}>
         <div className={classes.content}>
           <h3>{props.title}</h3>
         </div>
         <div className={classes.actions}>
-          <button>Done</button>
+          <button onClick={doneHandler}>Done</button>
           <button onClick={detailsHandler}>Delete</button>
         </div>
     </li>
