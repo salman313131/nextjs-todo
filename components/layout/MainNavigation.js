@@ -11,7 +11,7 @@ function MainNavigation() {
             <Link href='/'>Todos</Link>
           </li>
           <li>
-            <Link href='/new-meetup'>Task Done</Link>
+            <Link href='/done'>Task Done</Link>
           </li>
         </ul>
       </nav>
